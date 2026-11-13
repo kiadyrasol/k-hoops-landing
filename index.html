@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>K-Hoops Athletics – Équipement et streetwear de basketball</title>
+  <meta name="description" content="Chaussures, maillots et accessoires de basketball conçus pour le terrain et la rue.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#accueil" class="logo">K-Hoops<span>Athletics</span></a>
+      <nav id="menu" class="nav-links" aria-label="Navigation principale">
+        <a href="#collection">Collection</a>
+        <a href="#performance">Performance</a>
+        <a href="#avis">Avis</a>
+        <a href="#contact">Contact</a>
+        <a href="#collection" class="btn btn-primary nav-cta-mobile">Commander</a>
+      </nav>
+      <a href="#collection" class="btn btn-primary nav-cta">Commander</a>
+      <button id="burger" class="burger" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 2. HERO -->
+    <section id="accueil" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Joue fort.<br>Porte-le partout.</h1>
+          <p class="hero-sub">Des chaussures, maillots et accessoires conçus pour le terrain, et assez stylés pour la rue. Nouvelle collection disponible.</p>
+          <div class="hero-actions">
+            <a href="#collection" class="btn btn-primary">Voir la collection</a>
+            <a href="#performance" class="btn btn-outline">Pourquoi K-Hoops</a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="hero-frame">
+            <img src="https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=900&q=80" alt="Joueur de basketball au dunk sur un terrain extérieur" width="900" height="1100">
+          </div>
+          <div class="hero-tag">
+            <strong>Drop #07</strong>
+            <span>Édition limitée</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. COLLECTION -->
+    <section id="collection" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Les pièces phares</h2>
+          <p>Quatre essentiels pour s'équiper de la tête aux pieds.</p>
+        </div>
+        <div class="grid-products">
+          <article class="card" data-name="Court Runner 1" data-price="129 €" data-desc="Chaussure de basket à amorti réactif et semelle à fort grip pour parquet et bitume.">
+            <div class="card-img">
+              <span class="badge">Nouveau</span>
+              <img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=700&q=80" alt="Chaussure de basketball Court Runner 1" loading="lazy">
+              <button class="btn btn-quick" type="button">Aperçu rapide</button>
+            </div>
+            <div class="card-body"><h3>Court Runner 1</h3><p class="price">129 €</p><p class="cat">Chaussures</p></div>
+          </article>
+
+          <article class="card" data-name="Maillot Downtown" data-price="64 €" data-desc="Maillot respirant en maille légère, coupe ample, séchage rapide.">
+            <div class="card-img placeholder jersey">
+              <span class="badge">Nouveau</span>
+              <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?auto=format&fit=crop&w=700&q=80" alt="Maillot de basketball Downtown" loading="lazy">
+              <button class="btn btn-quick" type="button">Aperçu rapide</button>
+            </div>
+            <div class="card-body"><h3>Maillot Downtown</h3><p class="price">64 €</p><p class="cat">Maillots</p></div>
+          </article>
+
+          <article class="card" data-name="Ballon Street Pro" data-price="39 €" data-desc="Ballon composite taille 7, rebond constant, idéal en intérieur comme en extérieur.">
+            <div class="card-img">
+              <img src="https://images.unsplash.com/photo-1579298245158-33e8f568f7d3?auto=format&fit=crop&w=700&q=80" alt="Ballon de basketball Street Pro" loading="lazy">
+              <button class="btn btn-quick" type="button">Aperçu rapide</button>
+            </div>
+            <div class="card-body"><h3>Ballon Street Pro</h3><p class="price">39 €</p><p class="cat">Accessoires</p></div>
+          </article>
+
+          <article class="card" data-name="Air Flow High" data-price="149 €" data-desc="Montante qui maintient la cheville, tige knit souple et look streetwear.">
+            <div class="card-img">
+              <span class="badge">Nouveau</span>
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=80" alt="Sneakers montantes Air Flow High" loading="lazy">
+              <button class="btn btn-quick" type="button">Aperçu rapide</button>
+            </div>
+            <div class="card-body"><h3>Air Flow High</h3><p class="price">149 €</p><p class="cat">Chaussures</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. PERFORMANCE -->
+    <section id="performance" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Construit pour performer</h2>
+          <p>Ce qui change quand on joue avec du matériel pensé pour le jeu.</p>
+        </div>
+        <div class="grid-features">
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 8.2-7 10-4-1.8-7-5.5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+            <h3>Qualité éprouvée</h3>
+            <p>Matières techniques testées par des joueurs, avec coutures renforcées pour tenir toute la saison.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg>
+            <h3>Livraison rapide</h3>
+            <p>Expédition sous 24 h et retours gratuits pendant 30 jours si la taille ne convient pas.</p>
+          </div>
+          <div class="feature">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.4 5 5.6.8-4 3.9 1 5.5-5-2.7-5 2.7 1-5.5-4-3.9 5.6-.8z"/></svg>
+            <h3>Design signature</h3>
+            <p>Des lignes nettes et des coloris audacieux, pour passer du match au quotidien sans changer de tenue.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TÉMOIGNAGES -->
+    <section id="avis" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ils jouent en K-Hoops</h2>
+          <p>Les retours de joueurs et de clients.</p>
+        </div>
+        <div class="grid-reviews">
+          <figure class="review">
+            <div class="stars" role="img" aria-label="5 étoiles sur 5">★★★★★</div>
+            <blockquote>Le grip des Court Runner est dingue, même sur un bitume humide. Je ne joue plus qu'avec.</blockquote>
+            <figcaption><strong>Malik D.</strong> Meneur, ligue régionale</figcaption>
+          </figure>
+          <figure class="review">
+            <div class="stars" role="img" aria-label="5 étoiles sur 5">★★★★★</div>
+            <blockquote>Le maillot est léger et ne colle pas. Commandé lundi, reçu mercredi, rien à redire.</blockquote>
+            <figcaption><strong>Sarah L.</strong> Ailière, club universitaire</figcaption>
+          </figure>
+          <figure class="review">
+            <div class="stars" role="img" aria-label="4 étoiles sur 5">★★★★☆</div>
+            <blockquote>Les Air Flow High tiennent bien la cheville et se portent aussi en ville. Je prends la taille au-dessus la prochaine fois.</blockquote>
+            <figcaption><strong>Théo R.</strong> Client</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. CONTACT / NEWSLETTER -->
+    <section id="contact" class="section section-alt">
+      <div class="container contact-grid">
+        <div class="contact-text">
+          <h2>Rejoins le roster</h2>
+          <p>Reçois les prochains drops en avant-première et un code de -10 % sur ta première commande.</p>
+        </div>
+        <form id="contact-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Nom</label>
+            <input id="name" name="name" type="text" autocomplete="name" placeholder="Ton nom">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="toi@exemple.com">
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Une question, une taille à confirmer ?"></textarea>
+            <small class="error" aria-live="polite"></small>
+          </div>
+          <button type="submit" class="btn btn-primary">Envoyer</button>
+          <p id="form-success" class="success" role="status" hidden></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#accueil" class="logo">K-Hoops<span>Athletics</span></a>
+        <p class="footer-about">Équipement et streetwear de basketball. Marque fictive créée pour la démonstration.</p>
+      </div>
+      <div>
+        <h4>Liens rapides</h4>
+        <ul>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#performance">Performance</a></li>
+          <li><a href="#avis">Avis</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Suis-nous</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a>
+          <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24"><path d="M4 4l16 16M20 4L4 20"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24"><rect x="2.5" y="6" width="19" height="12" rx="4"/><path d="M10 9.5v5l4.5-2.5z"/></svg></a>
+          <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M14 4v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4c.5 2.5 2 3.8 4.5 4"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© 2026 K-Hoops Athletics. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Modale aperçu rapide -->
+  <dialog id="quick-modal" class="modal" aria-labelledby="modal-title">
+    <button class="modal-close" type="button" aria-label="Fermer">×</button>
+    <h3 id="modal-title"></h3>
+    <p id="modal-price" class="price"></p>
+    <p id="modal-desc"></p>
+    <button class="btn btn-primary" type="button" id="modal-add">Ajouter au panier</button>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
